@@ -1,0 +1,50 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    background-color: white;
+    box-shadow: 1px 1px 5px gray;
+    border-radius: 5px;
+    cursor: pointer;
+    gap: 5px;
+    min-width: 400px;
+    min-height: 100px;
+    padding: 2rem;
+}
+
+.input-btn-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  /* margin-top: 10px; */
+}
+
+.container:hover {
+    box-shadow: 5px 5px 20px gray;
+    transition: all;
+    transition-duration: 0.5s;
+}
+
+#grocery-items {
+    font-size: large;
+    padding: 0.3rem;
+    width: 70%;
+    border-radius: 3px;
+    border: 2px solid lightgray;
+  }
+  
+  .add-btn {
+    font-size: large;
+    background-color: rgb(19, 157, 161);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 0.4rem;
+    cursor: pointer;
+  } 
+
+  .add-btn:active {
+    transform: translateY(2px);
+  }
